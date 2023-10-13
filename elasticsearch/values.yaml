@@ -114,7 +114,7 @@ volumeClaimTemplate:
   accessModes: ["ReadWriteOnce"]
   resources:
     requests:
-      storage: 30Gi
+      storage: 1Gi
 
 rbac:
   create: false
